@@ -3,7 +3,7 @@
 
 
 clean:
-	@rm -rf build/
+	@rm -rf build/ build_src/
 	@find . -type d -name '__pycache__' -exec rm -rf {} +
 	@find . -type f -name '*.pyc' -exec rm -f {} +
 

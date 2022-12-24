@@ -13,6 +13,6 @@ pip install -U exonutils
 
 ## License ##
 
-**copyright :**  2019-2022, ExonLabs. All rights reserved.
+**copyright :**  2019-2023, ExonLabs. All rights reserved.
 
 **license :**  BSD, see LICENSE for more details.

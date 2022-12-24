@@ -13,4 +13,5 @@
 __pycache__/
 /dist/
 /build/
+/build_src/
 /tmp/

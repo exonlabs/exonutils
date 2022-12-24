@@ -3,9 +3,9 @@ import sys
 import logging
 from argparse import ArgumentParser
 
-from exonutils.webapp.server import SimpleWebServer
-from exonutils.webapp.extserver import ExtWebServer, WebArbiter
-from exonutils.webapp.view import BaseWebView
+from exonutils.webapp.flask.server import SimpleWebServer
+from exonutils.webapp.flask.view import BaseWebView
+from exonutils.webapp.gunicorn.extserver import ExtWebServer, WebArbiter
 
 logging.basicConfig(
     level=logging.INFO, stream=sys.stdout,
