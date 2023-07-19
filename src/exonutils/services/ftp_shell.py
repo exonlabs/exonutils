@@ -169,7 +169,7 @@ class FTPClient(object):
             local_dir, remote_file, is_dnload=True, **kwargs)
 
         if self._run_command(cmd, **kwargs):
-            self.log.error("(FTP) download done: %s" % remote_file)
+            self.log.info("(FTP) download done: %s" % remote_file)
             return True
         else:
             self.log.error("(FTP) download failed: %s" % remote_file)
@@ -186,7 +186,7 @@ class FTPClient(object):
             local_file, remote_dir, is_dnload=False, **kwargs)
 
         if self._run_command(cmd, **kwargs):
-            self.log.error("(FTP) upload done: %s" % local_file)
+            self.log.info("(FTP) upload done: %s" % local_file)
             return True
         else:
             self.log.error("(FTP) upload failed: %s" % local_file)
